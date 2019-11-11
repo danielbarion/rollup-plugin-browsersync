@@ -4,20 +4,21 @@
   "description": "Serve your rolled up bundle via browsersync",
   "main": "index.js",
   "license": "MIT",
+  "private": false,
   "author": {
     "name": "Daniel Barion",
     "email": "danielbarionn@gmail.com"
   },
-  "homepage": "https://github.com/danielbarion/rollup-plugin-browsersync",
-  "bugs": {
-    "url": "https://github.com/danielbarion/rollup-plugin-browsersync/issues"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/danielbarion/rollup-plugin-browsersync"
+    "url": "https://github.com/danielbarion/rollup-plugin-browsersync.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
+  },
+  "homepage": "https://github.com/danielbarion/rollup-plugin-browsersync",
+  "bugs": {
+    "url": "https://github.com/danielbarion/rollup-plugin-browsersync/issues"
   },
   "dependencies": {
     "browser-sync": "^2.26.7"
