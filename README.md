@@ -7,13 +7,13 @@ Serve your bundle via Browser Sync
 
 ## Installation
 ```
-npm install --save-dev rollup-plugin-browsersync
+npm install @danielbarion/rollup-plugin-browsersync
 ```
 
 ## Usage
 ```js
 // rollup.config.js
-import browsersync from 'rollup-plugin-browsersync'
+import browsersync from '@danielbarion/rollup-plugin-browsersync'
 
 export default {
   input: 'entry.js',
