@@ -1,0 +1,42 @@
+{
+  "name": "rollup-plugin-browsersync",
+  "version": "0.0.1",
+  "description": "Serve your rolled up bundle via browsersync",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Daniel Barion",
+    "email": "danielbarionn@gmail.com"
+  },
+  "homepage": "https://github.com/danielbarion/rollup-plugin-browsersync",
+  "bugs": {
+    "url": "https://github.com/danielbarion/rollup-plugin-browsersync/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielbarion/rollup-plugin-browsersync"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "puppeteer": "^1.11.0",
+    "replace-in-file": "^3.4.2",
+    "rollup": "^1.26.5"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.7"
+  },
+  "keywords": [
+    "rollup",
+    "rollup-plugin",
+    "browsersync",
+    "dev-server",
+    "static",
+    "serve"
+  ]
+}
