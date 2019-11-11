@@ -1,5 +1,5 @@
 {
-  "name": "rollup-plugin-browsersync",
+  "name": "@danielbarion/rollup-plugin-browsersync",
   "version": "1.0.0",
   "description": "Serve your rolled up bundle via browsersync",
   "main": "index.js",
