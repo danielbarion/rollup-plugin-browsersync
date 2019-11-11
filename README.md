@@ -1,11 +1,9 @@
-This rollup plugin are inspired by [4lejandrito browsersync plugin](https://github.com/4lejandrito/rollup-plugin-browsersync).
+The browser will be opened only when the entire bundle process is complete and the files are saved.
 
+This rollup plugin are inspired by [4lejandrito browsersync plugin](https://github.com/4lejandrito/rollup-plugin-browsersync).
 
 # rollup-plugin-browsersync
 Serve your bundle via Browser Sync
-
-[![npm version](https://badge.fury.io/js/rollup-plugin-browsersync.svg)](https://badge.fury.io/js/rollup-plugin-browsersync)
-[![Build Status](https://travis-ci.org/4lejandrito/rollup-plugin-browsersync.svg?branch=master)](https://travis-ci.org/4lejandrito/rollup-plugin-browsersync)
 
 ## Installation
 ```
